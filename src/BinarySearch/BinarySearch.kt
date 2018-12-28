@@ -4,9 +4,9 @@ import Logger
 
 class BinarySearch {
 
-    private var left: Int = 0
-    private var right: Int = 0
-    private var middle: Int = 0
+    private var left = 0
+    private var right = 0
+    private var middle = 0
 
     // Best case = O(1), Worst case = O(log n)
     // Best case explanation: We can find in first step, what we are looking for
